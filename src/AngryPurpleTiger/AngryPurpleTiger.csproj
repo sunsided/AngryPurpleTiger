@@ -19,10 +19,11 @@
     </PropertyGroup>
     
     <PropertyGroup>
-        <PackageVersion>0.1-unstable</PackageVersion>
+        <PackageVersion>0.1-unstable.2</PackageVersion>
         <PackageTags>Hashing;Helium</PackageTags>
         <PackageProjectUrl>https://github.com/sunsided/AngryPurpleTiger</PackageProjectUrl>
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
     
     <PropertyGroup>
@@ -39,6 +40,11 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath="\" Visible="false" />
+        <None Include="..\..\CHANGELOG.md" Pack="true" PackagePath="\" Visible="false" />
     </ItemGroup>
     
 </Project>
