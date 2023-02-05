@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A9049395-2C65-47AD-9525-9AA81F41CBAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngryPurpleTiger.Tests", "tests\AngryPurpleTiger.Tests\AngryPurpleTiger.Tests.csproj", "{E58D3A52-2A79-4CD1-9D38-AFCDC21E391B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngryPurpleTiger.Tests", "test\AngryPurpleTiger.Tests\AngryPurpleTiger.Tests.csproj", "{DD860ADF-D883-496B-852A-EA7B48CD5612}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,13 +25,13 @@ Global
 		{30F0171E-C4F1-4B64-BE91-681017EB31DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30F0171E-C4F1-4B64-BE91-681017EB31DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30F0171E-C4F1-4B64-BE91-681017EB31DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E58D3A52-2A79-4CD1-9D38-AFCDC21E391B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E58D3A52-2A79-4CD1-9D38-AFCDC21E391B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E58D3A52-2A79-4CD1-9D38-AFCDC21E391B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E58D3A52-2A79-4CD1-9D38-AFCDC21E391B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD860ADF-D883-496B-852A-EA7B48CD5612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD860ADF-D883-496B-852A-EA7B48CD5612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD860ADF-D883-496B-852A-EA7B48CD5612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD860ADF-D883-496B-852A-EA7B48CD5612}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{30F0171E-C4F1-4B64-BE91-681017EB31DF} = {A63E17CF-A1E5-408F-95C7-4BC4C0464D11}
-		{E58D3A52-2A79-4CD1-9D38-AFCDC21E391B} = {A9049395-2C65-47AD-9525-9AA81F41CBAC}
+		{DD860ADF-D883-496B-852A-EA7B48CD5612} = {A9049395-2C65-47AD-9525-9AA81F41CBAC}
 	EndGlobalSection
 EndGlobal

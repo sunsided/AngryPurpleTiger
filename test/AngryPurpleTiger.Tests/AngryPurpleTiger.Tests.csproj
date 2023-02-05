@@ -26,4 +26,8 @@
       <ProjectReference Include="..\..\src\AngryPurpleTiger\AngryPurpleTiger.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+        <None Remove="TestResults\*" />
+    </ItemGroup>
+
 </Project>
