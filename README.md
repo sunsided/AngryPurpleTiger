@@ -1,6 +1,6 @@
 # Angry Purple Tiger
 
-animal-based hash digests for humans ... in C#
+animal-based hash digests for humans ... in C# — a port of [helium/angry-purple-tiger-rs](https://github.com/helium/angry-purple-tiger-rs).
 
 ## Overview
 
@@ -8,6 +8,10 @@ Angry Purple Tiger generates animal-based hash digests meant to be memorable
 and human-readable. Angry Purple Tiger is apt for anthropomorphizing project
 names, crypto addresses, UUIDs, or any complex string of characters that
 needs to be displayed in a user interface.
+
+```shell
+dotnet add package AngryPurpleTiger --version 0.1.0
+```
 
 ## Example
 
