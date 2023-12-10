@@ -23,3 +23,7 @@ jobs:
         uses: JetBrains/qodana-action@v2023.2
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
+        with:
+          # https://youtrack.jetbrains.com/issue/QD-7949/Licensing-problem-with-community-edition-.NET-GIthub-Actions
+          pr-mode: false
+          args: --save-report=false
