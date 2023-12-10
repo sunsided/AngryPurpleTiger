@@ -28,3 +28,7 @@ profile:
 #Specify Qodana linter for analysis (Applied in CI/CD pipeline)
 # linter: jetbrains/qodana-dotnet:latest
 linter: jetbrains/qodana-cdnet:latest
+
+dotnet:
+  solution: AngryPurpleTiger.sln
+
